@@ -11,6 +11,7 @@ Let’s state the problem
 When uploading images downloaded from the internet or re-worked, they most of the time, have their [EXIF metadata](https://en.wikipedia.org/wiki/Exchangeable_image_file_format) removed, and everything works just fine, BUT when uploaded directly from the device (camera/phone) they keep their headers, and later on when processed through .NET’s class [Image](https://msdn.microsoft.com/en-us/library/system.drawing.image(v=vs.110).aspx), the EXIF metadata get’s applied to the image’s bytes. What really happens is that if your device set’s the orientation metadata attribute later it gets applied on your image before saving on your storage service, and when retrieved, it is rotated. 
 
 Let’s see how I was doing it wrong:
+<script src="https://gist.github.com/ice-j/8e68717d6b315988e890.js"></script>
 
 What did I do to remove the bug?
 -------------------------------------------------
@@ -19,7 +20,7 @@ What did I do to remove the bug?
 
 
 Final result:
-
+<script src="https://gist.github.com/ice-j/977b6c799276dfd4c842.js"></script>
 
 Talk is cheap, show me the code!
 -------------------------------------------------
