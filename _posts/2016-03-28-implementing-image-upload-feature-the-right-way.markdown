@@ -15,7 +15,7 @@ Let’s see how I was doing it wrong:
 What did I do to remove the bug?
 -------------------------------------------------
 
-     Well, I’ve googled it (as any developer would have :]), and I came across this good [EXIF Extractor lib](http://www.codeproject.com/Articles/11305/EXIFextractor-library-to-extract-EXIF-information). It helped me extract the image’s metadata and apply any orientation in the inverse direction (if existing) and return the rotation metadata to the way I want it to be. You can either do that, or remove any EXIF metadata attributes there are. It’s your choice, but I’ve decided to keep them. 
+   Well, I’ve googled it (as any developer would have :]), and I came across this good [EXIF Extractor lib](http://www.codeproject.com/Articles/11305/EXIFextractor-library-to-extract-EXIF-information). It helped me extract the image’s metadata and apply any orientation in the inverse direction (if existing) and return the rotation metadata to the way I want it to be. You can either do that, or remove any EXIF metadata attributes there are. It’s your choice, but I’ve decided to keep them.
 
 
 Final result:
