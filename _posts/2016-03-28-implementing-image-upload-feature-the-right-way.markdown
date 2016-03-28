@@ -25,7 +25,7 @@ Final result:
 Talk is cheap, show me the code!
 -------------------------------------------------
 
-If you'd rather fork or pull the whole example you can do that [here](https://github.com/FrOz3n-/SimpleImageUploader).
+If you'd rather fork or pull the whole example you can do that [here](https://github.com/ice-j/SimpleImageUploader).
 
 Hope I saved someone’s precious time, helped them learn something new, or have a good laugh :) 
 Anyway, it was a good experience for me. - Ice.
